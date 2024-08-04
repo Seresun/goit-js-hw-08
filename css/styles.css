@@ -1,15 +1,15 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px; 
+  gap: 24px;
   list-style: none;
   padding: 0;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .gallery-item {
   flex: 1 1 calc(33.333% - 24px);
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .gallery-link {
@@ -20,9 +20,9 @@
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
 }
 
 .gallery-item:hover .gallery-image {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
